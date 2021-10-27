@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Playfair+Display&family=Zen+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+h1 {
+  font-family: 'Sofia Pro', sans-serif;
+}
+
+h2 {
+  font-family: 'Sofia Pro', sans-serif;
+  font-size: 18;
+  color: #656e49;
+}
+
+p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 16;
+}
+
+body {
+  background-image: url(images/monstera-leaf-wallpaper-in-sage-green-p8662-29912_image.jpeg);
+  background-size: cover;
+  background-color: #CDD3CB;
+  background-repeat: repeat-y;
+  font-family: 'Playfair Display', serif;
+  font-size: 16;
+  color: rgb(26, 38, 62);
+}
+
+#profile_pic {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#profile_box {
+  animation: 1.5s fadeIn;
+  animation-fill-mode: forwards;
+  animation-delay: 0.3s;
+  visibility: hidden;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #f8fcf7;
+}
+
+a:hover {
+  color: rgb(108, 127, 164);
+  transform: scale(0.7);
+}
+
+.cheekylink {
+  color: rgb(255 255 255);
+  font-weight: 400;
+  padding: 2px 4px;
+  text-align: center;
+  margin: 0px 5;
+  border-radius: 3px;
+  background-color: #b3b99f;
+}
+
+.cheekylink:hover {
+  color: #b3b99f;
+  background-color: ivory;
+  border: 1px #b3b99f solid;
+  transition: 1s;
+}
+
+
+.fab {
+  text-decoration: none;
+  color: rgb(26, 38, 62);
+  padding: 10px;
+}
+
+.fab:hover {
+  color: rgb(108, 127, 164);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 40px;
+}
+
+.card-white {
+  background: ivory;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px;
+  width: fit-content;
+  text-align: center;
+}
+
+.card-transparent {
+  width: fit-content;
+  text-align: center;
+}
+
+#fav_things1 {
+  text-align: left;
+  width: 500px;
+  font-weight: lighter;
+  animation: 1.5s fadeIn;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  visibility: hidden;
+}
+
+#fav_things2 {
+  text-align: left;
+  width: 500px;
+  font-weight: lighter;
+  animation: 1.5s fadeIn;
+  animation-fill-mode: forwards;
+  animation-delay: 1.7s;
+  visibility: hidden;
+}
+
+#fav_things3 {
+  text-align: left;
+  width: 500px;
+  font-weight: lighter;
+  animation: 1.5s fadeIn;
+  animation-fill-mode: forwards;
+  animation-delay: 2.4s;
+  visibility: hidden;
+}
+
+.centered-div{
+  margin: 40px auto;
+}
+
+#le-wagon-link {
+  font-weight: 400;
+  padding: 5px 10px;
+  text-align: center;
+  margin: 0px 5;
+  border-radius: 5px;
+  background-color: #b3b99f;
+  background: #a5ad8c;
+  font-family: 'Sofia Pro', sans-serif;
+}
+
+#le-wagon-link:hover {
+  color: #b3b99f;
+  background-color: ivory;
+  border: 1px #b3b99f solid;
+  transition: 1s;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items:center;
+}
+
+.flexbox-smaller {
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#socials {
+  animation: 2s fadeIn;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  visibility: hidden;
+}
+
+.body-change {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: ivory;
+  animation: 2s fadeOut;
+  animation-delay: 1s;
+  display: none;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1 !important;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
